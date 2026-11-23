@@ -36,6 +36,7 @@ TypeScript
 Vite
 TanStack Start
 Tailwind CSS v4
+
 PLpgSQL
 Backend Lovable Cloud | FuturAfric  | En cours |
 | yiri-data-collection | https://github.com/futurafric-ia/yiri-data-collection | Collecte automatisée de données à travers des scripts destinés à alimenter les corpus et les jeux de données du projet YIRI. | À approfondir (présence confirmée de scripts d'automatisation de collecte de données) | FuturAfric | Description du dépôt identifiée. Le dépôt est dédié à la collecte automatisée de données. Analyse détaillée du code, des sources de données et des technologies en cours. |
@@ -52,3 +53,14 @@ JavaScript
 CSS
 HTML | FuturAfric | Dépôt identifié et URL vérifiée. Analyse préliminaire réalisée. Présence d'une application frontend basée sur TypeScript et React. Architecture fonctionnelle détaillée, mécanismes de synchronisation et gestion des données hors ligne à approfondir. |
 
+yiri-lingua-hub	https://github.com/futurafric-ia/yiri-lingua-hub	Hub linguistique du projet YIRI centralisant des ressources linguistiques	Vite
+TypeScript
+React
+shadcn-ui
+Tailwind CSS	FuturAfric 	Dépôt identifié, analyse à démarrer
+annotation-yiri	https://github.com/futurafric-ia/annotation-yiri	Plateforme ou composant dédié à l'annotation des données YIRI	Vite
+TypeScript
+React
+shadcn-ui
+Tailwind CSS
+	FuturAfric 	Dépôt identifié, analyse à démarrer
