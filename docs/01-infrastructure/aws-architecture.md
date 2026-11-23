@@ -2,29 +2,26 @@
 
 ## Objectif
 
-Documenter l'architecture cloud (AWS) de l'écosystème YIRI, les services utilisés et la manière dont ils sont déployés.
-
-## Comptes AWS utilisés
-
-| Compte | Identifiant | Usage | Statut |
-|--------|-------------|-------|--------|
-| À confirmer | À confirmer | À confirmer | À vérifier |
+Documenter l'architecture AWS utilisée par les projets YIRI.
 
 ## Services AWS identifiés
 
-| Service | Usage | Statut |
-|---------|-------|--------|
-| À confirmer | À confirmer | À vérifier |
+| Service | Utilisation | Statut |
+|---------|-------------|--------|
+| À compléter | À compléter | À analyser |
 
 ## Ressources déployées
 
-- À compléter après analyse de `yiri-aws-data-infrastructure`.
+À compléter.
 
-## Schéma d'architecture
+## Architecture réseau
 
-```mermaid
-graph TD
-    A[Utilisateurs] --> B[Frontend CDN]
-    B --> C[API Backend]
-    C --> D[Bases de donnees]
-    C --> E[Services de traitement]
+À compléter.
+
+## Sécurité et accès
+
+À compléter.
+
+## Sources analysées
+
+- [yiri-aws-data-infrastructure](https://github.com/futurafric-ia/yiri-aws-data-infrastructure)

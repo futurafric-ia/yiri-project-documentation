@@ -1,29 +1,25 @@
 # Dépendances
 
-## Dépôts liés
+## Dépendances entre dépôts
 
-- Liste des dépôts et de leurs liens : À confirmer après analyse.
+- [yiri](https://github.com/futurafric-ia/yiri)
+- [yiri-data-studio](https://github.com/futurafric-ia/yiri-data-studio)
+- [yiri-sync-studio](https://github.com/futurafric-ia/yiri-sync-studio)
+- [yiri-data-collection](https://github.com/futurafric-ia/yiri-data-collection)
+- [yiri-module-tts](https://github.com/futurafric-ia/yiri-module-tts)
+- [yiri_module_tts_tokenizer](https://github.com/futurafric-ia/yiri_module_tts_tokenizer)
+- [yiri-lingua-hub](https://github.com/futurafric-ia/yiri-lingua-hub)
+- [annotation-yiri](https://github.com/futurafric-ia/annotation-yiri)
+- [yiri-offline](https://github.com/futurafric-ia/yiri-offline)
 
-## Bases de données
+## Dépendances cloud
 
-- Type de bases de données utilisées : À confirmer
-- Fournisseur (Supabase, AWS RDS, etc.) : À confirmer
+À compléter.
 
-## Services cloud
+## Dépendances bases de données
 
-- Services AWS utilisés : À confirmer
-- Autres services (Lovable Cloud, Supabase, etc.) : À confirmer
+À compléter.
 
-## API externes
+## Dépendances IA
 
-- À compléter après analyse.
-
-## Dépendances entre composants
-
-```mermaid
-graph LR
-    A[yiri-data-collection] --> B[Base de données]
-    B --> C[Yiri]
-    C --> D[annotation-yiri]
-    C --> E[yiri-data-studio]
-    C --> F[yiri-sync-studio]
+À compléter.
