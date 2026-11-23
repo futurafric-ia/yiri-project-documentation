@@ -2,26 +2,35 @@
 
 ## Objectif
 
-Documenter l'architecture AWS utilisée par les projets YIRI.
+Documenter l'infrastructure AWS utilisée par les projets YIRI ainsi que les composants déployés via Terraform.
 
 ## Services AWS identifiés
 
 | Service | Utilisation | Statut |
 |---------|-------------|--------|
-| À compléter | À compléter | À analyser |
+| AWS Glue | Traitement et orchestration des données (ETL) | Identifié (module Terraform présent) |
+| Terraform (HCL) | Gestion de l'infrastructure en tant que code (IaC) | Identifié (langage du dépôt) |
+| À compléter | À compléter après analyse des modules | À analyser |
 
 ## Ressources déployées
 
-À compléter.
+- **Terraform** : le dépôt est écrit à 100 % en HCL, confirmant l'usage de Terraform pour provisionner l'infrastructure.
+- **AWS Glue** : présence confirmée d'un module Terraform dédié (commit « Ajout du module Glue Terraform »).
+- Le dossier `terraform-module/` contient les modules d'infrastructure (à détailler).
+- Ressources AWS en cours d'analyse (S3, IAM, RDS, Lambda, VPC, EC2... à confirmer).
 
 ## Architecture réseau
 
-À compléter.
+En cours d'analyse à partir des modules Terraform (VPC, subnets, security groups à identifier dans le dossier `terraform-module/`).
 
 ## Sécurité et accès
 
-À compléter.
+En cours d'analyse à partir des configurations Terraform (rôles IAM, policies, secrets à identifier).
 
 ## Sources analysées
 
-- [yiri-aws-data-infrastructure](https://github.com/futurafric-ia/yiri-aws-data-infrastructure)
+- Dépôt : [yiri-aws-data-infrastructure](https://github.com/futurafric-ia/yiri-aws-data-infrastructure)
+- Branche : `main`
+- Dossier clé : `terraform-module/`
+- Langage : HCL (Terraform) à 100 %
+- État de l'analyse : En cours
