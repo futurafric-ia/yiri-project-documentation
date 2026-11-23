@@ -22,7 +22,7 @@
 
 ```mermaid
 graph LR
-    A[yiri-data-collection] --> B[(Base de données)]
+    A[yiri-data-collection] --> B[Base de données]
     B --> C[Yiri]
     C --> D[annotation-yiri]
     C --> E[yiri-data-studio]
