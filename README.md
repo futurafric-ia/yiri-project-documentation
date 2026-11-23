@@ -1,6 +1,3 @@
-# Documentation du Projet YIRI
-
-Bienvenue dans la documentation centrale du projet YIRI. Ce dépôt regroupe l'inventaire des composants, l'architecture de l'infrastructure, les schémas de bases de données et les guides de développement de l'écosystème.
 
 ## Avancement
 
