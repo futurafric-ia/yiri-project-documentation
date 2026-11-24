@@ -96,6 +96,6 @@ Voici des exemples concrets d'annotations réalisées sur les langues locales iv
 | Texte | Langue | Entité identifiée | Type d'entité |
 |-------|--------|-------------------|---------------|
 | "Je viens de Korhogo" | Français | Korhogo | Ville |
-| "N bô Korhogo" | Dioula | Korhogo | Ville |
+| "N bô la Korhogo" | Dioula | Korhogo | Ville |
 
 > **Remarque** : Toutes les annotations sont réalisées principalement sur les langues locales ivoiriennes, notamment le Dioula, le Baoulé, le Bété, le Sénoufo et le Yacouba, ainsi que sur leurs traductions en français.
