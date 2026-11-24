@@ -1,4 +1,4 @@
-# Phase 7 - Intelligence Artificielle
+#  Intelligence Artificielle
 
 ## Objectif
 
