@@ -1,4 +1,4 @@
-# Phase 10 - Maintenance et Support
+# Maintenance et Support
 
 ## Objectif
 
