@@ -1,50 +1,27 @@
-## Avancement
+## Sommaire de la documentation
 
-### Phase 00 - Inventaire des dépôts
-✅ Terminée
+1. [Inventaire des dépôts](docs/00-repositories/repositories-inventory.md)
+2. [Infrastructure](docs/01-infrastructure/system-overview.md)
+3. [Base de données](docs/02-database/overview.md)
+4. [Gestion des données](docs/03-data-management/overview.md)
+5. [Annotation](docs/04-annotation/overview.md)
+6. [Développements](docs/05-development/overview.md)
+7. [Intelligence Artificielle](docs/06-ai/overview.md)
+8. [Déploiement et Exploitation](docs/07-deployment/overview.md)
+9. [Sécurité](docs/08-security/overview.md)
+10. [Maintenance et Support](docs/09-maintenance/overview.md)
 
-### Phase 01 - Infrastructure
-✅ Structure créée
-✅ Analyse des dépôts d'infrastructure démarrée
-🔄 Analyse détaillée Terraform en cours
+## État d'avancement
 
-### Phase 02 - Base de données
-✅ Structure créée
-🔄 Extraction des informations RDS en cours
-
-### Phase 03 - Gestion des données
-✅ Documentation créée
-🔄 Vérification des services de stockage et de traitement en cours
-
-### Phase 04 - Annotation
-✅ Documentation créée
-🔄 Identification des outils et workflows d'annotation en cours
-
-### Phase 05 - Développements
-✅ Documentation créée
-🔄 Analyse des dépôts applicatifs en cours
-
-### Phase 06 - Intelligence Artificielle
-✅ Documentation créée
-
-### Phase 07 - Déploiement et Exploitation
-✅ Documentation créée
-
-### Phase 08 - Sécurité
-✅ Documentation créée
-
-### Phase 09 - Maintenance et Support
-✅ Documentation créée
-
-## État global
-
-- ✅ Phase 00 terminée
-- ✅ Phase 01 documentée
-- ✅ Phase 02 documentée
-- ✅ Phase 03 documentée
-- ✅ Phase 04 documentée
-- ✅ Phase 05 documentée
-- ✅ Phase 06 documentée
-- ✅ Phase 07 documentée
-- ✅ Phase 08 documentée
-- ✅ Phase 09 documentée
+| Chapitre | Statut | Prochaine étape |
+|----------|--------|-----------------|
+| 1. Inventaire des dépôts | ✅ Terminé | Analyse détaillée des README |
+| 2. Infrastructure | ✅ Documenté | Extraction des données Terraform |
+| 3. Base de données | ✅ Documenté | Extraction des données RDS |
+| 4. Gestion des données | ✅ Documenté | Vérification S3 / Glue |
+| 5. Annotation | ✅ Documenté | Exemples et workflows |
+| 6. Développements | ✅ Documenté | Analyse des dépôts applicatifs |
+| 7. Intelligence Artificielle | ✅ Documenté | Analyse des modèles |
+| 8. Déploiement et Exploitation | ✅ Documenté | Analyse CI/CD |
+| 9. Sécurité | ✅ Documenté | Audit IAM / AWS |
+| 10. Maintenance et Support | ✅ Documenté | Mise en place des procédures |
