@@ -63,30 +63,39 @@ Exemples :
 
 ## Types d'annotations
 
-### Classification
+Voici des exemples concrets d'annotations réalisées sur les langues locales ivoiriennes.
 
-Attribution d'une catégorie ou d'un thème à une donnée.
+### 1. Classification & Annotation linguistique
 
-Exemple :
+| Phrase | Langue | Catégorie / Type | Sens en français |
+|--------|--------|------------------|------------------|
+| "I ni ce" | Dioula | Salutation | Bonjour |
+| "N'djé" | Baoulé | Salutation | Bonjour |
 
-```text
-Phrase : "I ni ce"
-Langue : Dioula
-Catégorie : Salutation
-Français : Comment vas-tu ?
-Dioula : I ka kéné wa ?
+### 2. Traduction
 
-Texte : "N'djé"
-Langue : Baoulé
-Type : Salutation
-Sens en français : Bonjour
+| Français | Langue locale | Traduction |
+|----------|---------------|------------|
+| Comment vas-tu ? | Dioula | "I ka kéné wa ?" |
+| Merci | Bété | "Kôssô" |
 
-Audio : "I ni sogoma"
-Transcription : "I ni sogoma"
-Langue : Dioula
-Traduction : Bonjour
+### 3. Transcription audio
 
-Image : Femme vendant des fruits au marché
-Langue : Sénoufo
-Description : Marché traditionnel
-Catégorie : Commerce local
+| Audio (source) | Transcription | Langue | Traduction |
+|----------------|---------------|--------|------------|
+| "I ni sogoma" | "I ni sogoma" | Dioula | Bonjour |
+
+### 4. Annotation d'images
+
+| Image | Langue | Description | Catégorie |
+|-------|--------|-------------|-----------|
+| Femme vendant des fruits au marché | Sénoufo | Marché traditionnel | Commerce local |
+
+### 5. Reconnaissance d'entités
+
+| Texte | Langue | Entité identifiée | Type d'entité |
+|-------|--------|-------------------|---------------|
+| "Je viens de Korhogo" | Français | Korhogo | Ville |
+| "N bô Korhogo" | Dioula | Korhogo | Ville |
+
+> **Remarque** : Toutes les annotations sont réalisées principalement sur les langues locales ivoiriennes, notamment le Dioula, le Baoulé, le Bété, le Sénoufo et le Yacouba, ainsi que sur leurs traductions en français.
