@@ -1,4 +1,4 @@
-# Phase 4 - Gestion des données
+# Gestion des données
 
 ## Objectif
 
