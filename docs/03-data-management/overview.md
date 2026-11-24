@@ -50,15 +50,16 @@ Utilisation de AWS Glue pour :
 
 ### Flux de traitement
 
-```text
-Sources de données
-      ↓
-   Collecte
-      ↓
-  Validation
-      ↓
-Transformation (AWS Glue)
-      ↓
-Stockage (RDS / S3)
-      ↓
-Consommation par les applications
+Voici une représentation visuelle du cycle de vie de la donnée dans YIRI :
+
+```mermaid
+graph TD
+    A[Sources de données] --> B[Collecte]
+    B --> C[Validation]
+    C --> D[Transformation - AWS Glue]
+    D --> E[Stockage - RDS / S3]
+    E --> F[Consommation par les applications]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
