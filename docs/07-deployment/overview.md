@@ -1,4 +1,4 @@
-# Phase 8 - Déploiement et Exploitation
+# Déploiement et Exploitation
 
 ## Objectif
 
