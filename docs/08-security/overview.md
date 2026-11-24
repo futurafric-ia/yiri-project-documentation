@@ -41,16 +41,12 @@ Objectifs :
 
 ### Principe du moindre privilège
 
-Chaque utilisateur dispose uniquement des accès nécessaires à ses missions.
-
-Exemple :
-
-```text
-Développeur
-→ Accès aux environnements DEV
-
-Administrateur
-→ Accès complet à l'infrastructure
-
-Utilisateur métier
-→ Accès aux fonctionnalités métier
+```mermaid
+graph LR
+    Dev[Développeur] -->|Accès| EnvDev[Environnements DEV]
+    Admin[Administrateur] -->|Accès complet| Infra[Infrastructure]
+    User[Utilisateur métier] -->|Accès| Fonction[Fonctionnalités métier]
+    
+    style Dev fill:#f9f,stroke:#333
+    style Admin fill:#bbf,stroke:#333
+    style User fill:#bfb,stroke:#333
