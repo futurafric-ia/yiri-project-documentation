@@ -1,52 +1,50 @@
 ## Avancement
 
-### Phase 1 - Inventaire des dépôts
+### Phase 00 - Inventaire des dépôts
 ✅ Terminée
 
-### Phase 2 - Infrastructure
+### Phase 01 - Infrastructure
 ✅ Structure créée
 ✅ Analyse des dépôts d'infrastructure démarrée
 🔄 Analyse détaillée Terraform en cours
 
-### Phase 3 - Base de données
+### Phase 02 - Base de données
 ✅ Structure créée
 🔄 Extraction des informations RDS en cours
 
-### Phase 4 - Gestion des données
+### Phase 03 - Gestion des données
 ✅ Documentation créée
 🔄 Vérification des services de stockage et de traitement en cours
 
-### Phase 5 - Annotation
+### Phase 04 - Annotation
 ✅ Documentation créée
 🔄 Identification des outils et workflows d'annotation en cours
 
-### Phase 6 - Développements
+### Phase 05 - Développements
 ✅ Documentation créée
 🔄 Analyse des dépôts applicatifs en cours
 
-### Phase 7 - Intelligence Artificielle
+### Phase 06 - Intelligence Artificielle
 ✅ Documentation créée
 
-### Phase 8 - Déploiement et Exploitation
+### Phase 07 - Déploiement et Exploitation
 ✅ Documentation créée
 
-### Phase 9 - Sécurité
+### Phase 08 - Sécurité
 ✅ Documentation créée
 
-### Phase 10 - Maintenance et Support
-⏳ À démarrer
+### Phase 09 - Maintenance et Support
+✅ Documentation créée
 
 ## État global
 
-- ✅ Phase 1 terminée
-- ✅ Phase 2 documentée
-- ✅ Phase 3 documentée
-- ✅ Phase 4 documentée
-- ✅ Phase 5 documentée
-- ✅ Phase 6 documentée
-- ✅ Phase 7 documentée
-- ✅ Phase 8 documentée
-- ✅ Phase 9 documentée
-
-**Puis :**
-- 🎯 Phase 10 - Maintenance et Support
+- ✅ Phase 00 terminée
+- ✅ Phase 01 documentée
+- ✅ Phase 02 documentée
+- ✅ Phase 03 documentée
+- ✅ Phase 04 documentée
+- ✅ Phase 05 documentée
+- ✅ Phase 06 documentée
+- ✅ Phase 07 documentée
+- ✅ Phase 08 documentée
+- ✅ Phase 09 documentée
