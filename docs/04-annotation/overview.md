@@ -63,39 +63,38 @@ Exemples :
 
 ## Types d'annotations
 
-Voici des exemples concrets d'annotations réalisées sur les langues locales ivoiriennes.
+Voici une représentation visuelle des différents types d'annotations réalisées sur les langues locales ivoiriennes :
 
-### 1. Classification & Annotation linguistique
+```mermaid
+graph TD
+    subgraph Classification & Linguistique
+        A1["Phrase : 'I ni ce'<br/>Langue : Dioula<br/>Catégorie : Salutation<br/>Sens : Bonjour"]
+        A2["Phrase : 'N'djé'<br/>Langue : Baoulé<br/>Catégorie : Salutation<br/>Sens : Bonjour"]
+    end
 
-| Phrase | Langue | Catégorie / Type | Sens en français |
-|--------|--------|------------------|------------------|
-| "I ni ce" | Dioula | Salutation | Bonjour |
-| "N'djé" | Baoulé | Salutation | Bonjour |
+    subgraph Traduction
+        B1["Français : Comment vas-tu ?<br/>Dioula : 'I ka kéné wa ?'"]
+        B2["Français : Merci<br/>Bété : 'Kôssô'"]
+    end
 
-### 2. Traduction
+    subgraph Transcription Audio
+        C1["Audio : 'I ni sogoma'<br/>Transcription : 'I ni sogoma'<br/>Langue : Dioula<br/>Traduction : Bonjour"]
+    end
 
-| Français | Langue locale | Traduction |
-|----------|---------------|------------|
-| Comment vas-tu ? | Dioula | "I ka kéné wa ?" |
-| Merci | Bété | "Kôssô" |
+    subgraph Annotation d'Images
+        D1["Image : Femme vendant des fruits<br/>Langue : Sénoufo<br/>Description : Marché traditionnel<br/>Catégorie : Commerce local"]
+    end
 
-### 3. Transcription audio
+    subgraph Reconnaissance d'Entités
+        E1["Texte : 'Je viens de Korhogo'<br/>Langue : Français<br/>Entité : Korhogo (Ville)"]
+        E2["Texte : 'N bô la Korhogo'<br/>Langue : Dioula<br/>Entité : Korhogo (Ville)"]
+    end
 
-| Audio (source) | Transcription | Langue | Traduction |
-|----------------|---------------|--------|------------|
-| "I ni sogoma" | "I ni sogoma" | Dioula | Bonjour |
-
-### 4. Annotation d'images
-
-| Image | Langue | Description | Catégorie |
-|-------|--------|-------------|-----------|
-| Femme vendant des fruits au marché | Sénoufo | Marché traditionnel | Commerce local |
-
-### 5. Reconnaissance d'entités
-
-| Texte | Langue | Entité identifiée | Type d'entité |
-|-------|--------|-------------------|---------------|
-| "Je viens de Korhogo" | Français | Korhogo | Ville |
-| "N bô la Korhogo" | Dioula | Korhogo | Ville |
-
-> **Remarque** : Toutes les annotations sont réalisées principalement sur les langues locales ivoiriennes, notamment le Dioula, le Baoulé, le Bété, le Sénoufo et le Yacouba, ainsi que sur leurs traductions en français.
+    style A1 fill:#f9f,stroke:#333
+    style A2 fill:#f9f,stroke:#333
+    style B1 fill:#bbf,stroke:#333
+    style B2 fill:#bbf,stroke:#333
+    style C1 fill:#bfb,stroke:#333
+    style D1 fill:#fbf,stroke:#333
+    style E1 fill:#ffb,stroke:#333
+    style E2 fill:#ffb,stroke:#333
