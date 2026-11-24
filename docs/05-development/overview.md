@@ -1,4 +1,4 @@
-# Phase 6 - Développements
+# Développements
 
 ## Objectif
 
