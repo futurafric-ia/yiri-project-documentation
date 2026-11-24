@@ -1,4 +1,4 @@
-# Phase 9 - Sécurité
+# Sécurité
 
 ## Objectif
 
